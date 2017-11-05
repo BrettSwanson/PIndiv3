@@ -78,6 +78,14 @@ h1{
   box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
 
+.passwordContainer, .question {
+  text-align: left;
+}
+
+#passwordReset {
+  margin-top: 20px;
+}
+
 
 form {
   background-color: white;
@@ -96,4 +104,5 @@ input[type="submit"] {
   border: none;
   height: 35px;
   width: 100px;
+  margin-top: 30px;
 }
