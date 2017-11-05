@@ -22,12 +22,12 @@ body {
 
 #footer {
   position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #F1C40F;
-    color: black;
-    text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #F1C40F;
+  color: black;
+  text-align: center;
 }
 
 label {
