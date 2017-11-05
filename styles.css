@@ -98,6 +98,15 @@ form {
 	width: 450px;
 }
 
+#searchForm {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.submitButton {
+  text-align: center;
+}
+
 input[type="submit"] {
   color: white;
   background-color: #4B98AC;
