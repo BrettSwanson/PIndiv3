@@ -13,8 +13,5 @@
     <title>PIndiv3</title>
   </head>
   <body>
-<?php
-  if (isset($_POST["insCheck"])) {
-
-  }
- ?>
+  </body>
+</html>
