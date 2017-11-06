@@ -1,5 +1,5 @@
 <?php
-  require('header.html');
+  require("header.html");
   require("nav.html");
 ?>
     <p>Say you keep your PHP functions in a file called "functions.php".
