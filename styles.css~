@@ -98,7 +98,7 @@ form {
 	width: 450px;
 }
 
-#searchForm, #insertForm {
+#searchForm {
   text-align: left;
   margin-top: 20px;
 }

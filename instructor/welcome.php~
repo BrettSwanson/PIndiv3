@@ -4,5 +4,4 @@
 ?>
 	<a href="" id="link">Deactivate All Questions</a>
 <?php
-  require("footer.html")
-?>
+  require("footer.html")?>
