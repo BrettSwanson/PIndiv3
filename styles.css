@@ -81,7 +81,7 @@ nav > div > a {
   font-size: 20px;
 }
 
-.qDelete {
+.qDelete, .qDeactivate {
   margin: auto;
   background-color: red;
   border-radius: 10px;
