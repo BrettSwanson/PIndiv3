@@ -22,6 +22,16 @@ body {
   box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.5);
 }
 
+#instructorFooter {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #00ccff;
+  color: black;
+  text-align: center;
+}
+
 #footer {
   position: fixed;
   left: 0;
@@ -53,7 +63,7 @@ nav > div {
   text-align: center;
   border-width: 1px;
   border-color: black;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 nav > div > a {
@@ -66,11 +76,56 @@ nav > div > a {
  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
 
+.qList {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.qDelete {
+  margin: auto;
+  background-color: red;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding-top: 5px;
+  color: black;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.qActivate, .qEdit {
+  margin: auto;
+  background-color: #66ff66;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding-top: 5px;
+  color: black;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+
 h1{
   font-size: 32pt;
   color: black;
   text-transform: uppercase;
   background-color: #F1C40F;
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 10px;
+  text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+#instructorh1 {
+  font-size: 32pt;
+  color: black;
+  text-transform: uppercase;
+  background-color: #00ccff;
   text-align: center;
   margin: 0px;
   margin-bottom: 10px;

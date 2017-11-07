@@ -1,4 +1,4 @@
-<?php 
+<?php
 	require("header.html");
 	require("nav.html");
 ?>
@@ -19,6 +19,15 @@
         <option value="4">4</option>
         <option value="5">5</option>
         <option value="6">6</option>
+      </select>
+    </div>
+		<div>
+      <label for="qType">Question Type</label>
+      <select id="qType" name="questionType">
+        <option value="RB">Radio Button</option>
+        <option value="SA">Short Answer</option>
+        <option value="checkbox">Checkbox</option>
+        <option value="TF">True/False</option>
       </select>
     </div>
     <div>
@@ -44,9 +53,34 @@
     </div>
   </form>
   <div>
-  	<p>Q5</p> 
-  		<a href="activated.php">Activate</a>
-  		<a href="">Edit</a>
+  	<p class="qList">Q5</p>
+  		<a class="qActivate" href="activated.php">Activate</a>
+  		<a class="qEdit" href="">Edit</a>
+			<a class="qDelete" href="">Delete</a>
+  </div>
+	<div>
+  	<p class="qList">Q4</p>
+  		<a class="qActivate" href="activated.php">Activate</a>
+  		<a class="qEdit" href="">Edit</a>
+			<a class="qDelete" href="">Delete</a>
+  </div>
+	<div>
+  	<p class="qList">Q3</p>
+  		<a class="qActivate" href="activated.php">Activate</a>
+  		<a class="qEdit" href="">Edit</a>
+			<a class="qDelete" href="">Delete</a>
+  </div>
+	<div>
+  	<p class="qList">Q2</p>
+  		<a class="qActivate" href="activated.php">Activate</a>
+  		<a class="qEdit" href="">Edit</a>
+			<a class="qDelete" href="">Delete</a>
+  </div>
+	<div>
+  	<p class="qList">Q1</p>
+  		<a class="qActivate" href="activated.php">Activate</a>
+  		<a class="qEdit" href="">Edit</a>
+			<a class="qDelete" href="">Delete</a>
   </div>
 <?php
 	require("footer.html");
